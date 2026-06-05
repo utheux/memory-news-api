@@ -1,4 +1,4 @@
-# WebScraping Backend
+# Review Cards and WebScraping Backend
 
 API backend criada para cadastro, login e gerenciamento de cards de estudo com revisão espaçada.
 
