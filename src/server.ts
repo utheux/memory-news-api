@@ -35,7 +35,8 @@ async function start() {
   webScreappingRoutes(app);
 
   await app.listen({
-    port: env.port
+    port: env.port,
+    host: '0.0.0.0'
   }).then(() => console.log('Server running in: ' + env.port));
 }
 
